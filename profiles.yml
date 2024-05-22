@@ -1,0 +1,13 @@
+pharma_sales:
+  outputs:
+    dev:
+      type: duckdb
+      path: D:\Projects\PharmacyFlow\sales2.duckdb
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: sales_fin.duckdb
+      threads: 4
+
+  target: dev
