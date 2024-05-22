@@ -1,3 +1,7 @@
 .streamlit/
 streamlit-422812-6887d646b099.json   
 pharmacy-sale-tracker/
+
+target/
+dbt_packages/
+logs/
