@@ -18,7 +18,7 @@ After employee input about sales, the same sheet is extracted and loaded into an
 
 `DUCKDB` is efficient for handling large volumes of data and scales well with any type of data. 
 
-With sufficient data, an `increemental model` using `DNT` will be implemented to only ensure new incoming data is transformed so as not to slow the database operations. 
+With sufficient data, an `increemental model` using `DBT` will be implemented to only ensure new incoming data is transformed so as not to slow the database operations. 
 
 `DBT` is a good tool for transformartion as it allows building efficient scalable `ETL` data pipelines. With DBT, different transformation `SQL` models can be chained together through model referencing. 
 
